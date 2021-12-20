@@ -46,7 +46,6 @@ async fn main() {
     // Login with a bot token from the environment
     let token = env::var("DISCORD_TOKEN").expect("token");
     let mut client = Client::builder(token)
-    // let mut client = Client::builder("OTE5NTA0NTIwNDAzMzY5OTk0.YbWxUQ.pmgDq8xxPX74OZnW3uc4UWDq9dY")
         .event_handler(Handler)
         .framework(framework)
         .await
