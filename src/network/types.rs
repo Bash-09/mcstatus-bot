@@ -1,7 +1,5 @@
 #![allow(dead_code)]
 
-use std::io::Read;
-
 use std::io;
 use std::string::FromUtf8Error;
 
