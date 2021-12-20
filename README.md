@@ -4,9 +4,11 @@ A Discord bot to give you a live status update of a Minecraft server in Discord,
 
 ![Example of Server Status](images/status.png)
 
+(Please don't judge my code too closely, this was just a small project that turned into something that may be useful to others!)
+
 # Usage
 
-Download the binary and run it with environment variables `DISCORD_TOKEN` and `DISCORD_PREFIX` set to get started.
+Download the binary [from here](https://github.com/Googe14/mcstatus-bot/releases/latest) and run it with environment variables `DISCORD_TOKEN` and `DISCORD_PREFIX` set to get started.
 
 On Linux devices you can easily create a bash script to run the bot like this:
 ```
